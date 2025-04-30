@@ -6,7 +6,7 @@ const Week2 = () => {
     title: 'Разработка АИС "Cнабжение комплектующими"',
     description: "",
     githubLink: "",
-    screenshots: ["/public/secondWeek/ERD.png", "/public/secondWeek/ChoiceDiagramm.png", "/public/secondWeek/StateDiagramm.png", "/public/secondWeek/DetailSchema.png", "/public/secondWeek/BigDiagramm.jpg", "/public/secondWeek/SecondBigDiagramm.jpg", "/public/secondWeek/first.jpg", "public/secondWeek/second.jpg", "public/secondWeek/third.jpg", "public/secondWeek/fourth.jpg", "public/secondWeek/five.jpg", "public/secondWeek/six.jpg", "public/secondWeek/seven.jpg", "public/secondWeek/eight.jpg", "public/secondWeek/nine.jpg"],
+    screenshots: ["/public/secondWeek/ERD.png", "/public/secondWeek/ChoiceDiagramm.png", "/public/secondWeek/MainSolution.png", "/public/secondWeek/DetailSchema.png", "/public/secondWeek/BigDiagramm.jpg", "/public/secondWeek/SecondBigDiagramm.jpg", "/public/secondWeek/first.jpg", "public/secondWeek/second.jpg", "public/secondWeek/third.jpg", "public/secondWeek/fourth.jpg", "public/secondWeek/five.jpg", "public/secondWeek/six.jpg", "public/secondWeek/seven.jpg", "public/secondWeek/eight.jpg", "public/secondWeek/nine.jpg"],
   };
 
   return (
