@@ -3,9 +3,9 @@ import { TaskCardWithGithub } from "@/components/TaskCardWithGithub";
 
 const Week2 = () => {
   const task = {
-    title: 'Разработка АИС "Компьютерной техники и периферийных устройств"',
-    description: "Приложение, разработанное для того, чтобы клиенты могли добавлять товары в корзину и создавать заказы.А все это могли отслеживать администраторы.",
-    githubLink: "https://github.com/1Haruko1/praktika",
+    title: 'Разработка АИС "Cнабжение комплектующими"',
+    description: "",
+    githubLink: "",
     screenshots: ["/public/secondWeek/ERD.png", "/public/secondWeek/ChoiceDiagramm.png", "/public/secondWeek/StateDiagramm.png", "/public/secondWeek/DetailSchema.png", "/public/secondWeek/BigDiagramm.jpg", "/public/secondWeek/SecondBigDiagramm.jpg", "/public/secondWeek/first.jpg", "public/secondWeek/second.jpg", "public/secondWeek/third.jpg", "public/secondWeek/fourth.jpg", "public/secondWeek/five.jpg", "public/secondWeek/six.jpg", "public/secondWeek/seven.jpg", "public/secondWeek/eight.jpg", "public/secondWeek/nine.jpg"],
   };
 
