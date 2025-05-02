@@ -6,7 +6,7 @@ const Week2 = () => {
     title: 'Разработка АИС "Cнабжение комплектующими"',
     description: "",
     githubLink: "",
-    screenshots: ["/public/secondWeek/ERD.png", "/public/secondWeek/ChoiceDiagramm.png", "/public/secondWeek/MainSolution.png", "/public/secondWeek/DetailSchema.png", "/public/secondWeek/BigDiagramm.png", "/public/secondWeek/SecondBigDiagramm.png", "/public/secondWeek/first.jpg", "public/secondWeek/second.jpg", "public/secondWeek/third.jpg", "public/secondWeek/fourth.jpg", "public/secondWeek/five.jpg", "public/secondWeek/six.jpg", "public/secondWeek/seven.jpg", "public/secondWeek/eight.jpg", "public/secondWeek/nine.jpg"],
+    screenshots: ["/public/secondWeek/ERD.png", "/public/secondWeek/ChoiceDiagramm.png", "/public/secondWeek/MainSolution.png", "/public/secondWeek/DetailSchema.png", "/public/secondWeek/BigDiagramm.png", "/public/secondWeek/SecondBigDiagramm.png", "/public/thirdWeek/test1.png", "/public/thirdWeek/test2.png", "/public/thirdWeek/test3.png", "/public/thirdWeek/test4.png", "/public/thirdWeek/test5.png", "/public/thirdWeek/test6.png", "/public/thirdWeek/test7.png", "/public/thirdWeek/test8.png", "/public/thirdWeek/test9.png", "/public/thirdWeek/test10.png", "/public/thirdWeek/test11.png", "/public/thirdWeek/test12.png", "/public/thirdWeek/test13.png", "/public/thirdWeek/test14.png", "/public/thirdWeek/test15.png",],
   };
 
   return (

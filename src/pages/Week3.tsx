@@ -13,18 +13,21 @@ const Week3 = () => {
   };
 
   const testData = [
-    { name: "Зарегистрировать нового пользователя", input: "Валидная почта,валидный логин,валидный пароль", expected: "Запись о пользователе добавлена", resultImage: "/public/thirdWeek/test1.png" },
-    { name: "Зарегистрировать нового пользователя", input: "Неваалидная почта,валидный логин,валидный пароль", expected: "Вывод об ошибке", resultImage: "/public/thirdWeek/test2.png" },
+    { name: "Зарегистрировать нового пользователя", input: "Валидная почта, валидный логин, валидный пароль", expected: "Запись о пользователе добавлена", resultImage: "/public/thirdWeek/test1.png" },
+    { name: "Зарегистрировать нового пользователя", input: "Невалидная почта, валидный логин, валидный пароль", expected: "Вывод об ошибке", resultImage: "/public/thirdWeek/test2.png" },
     { name: "Войти в систему под пользователем", input: "Данные от существующего аккаунта", expected: "Успешный вход в аккаунт", resultImage: "/public/thirdWeek/test3.png" },
     { name: "Войти в систему под пользователем", input: "Данные от не существующего аккаунта", expected: "Вывод об ошибке", resultImage: "/public/thirdWeek/test4.png" },
-    { name: "Смена фильтра", input: "Измнение фильтра", expected: "Фильтр сменен", resultImage: "/public/thirdWeek/test5.png" },
-    { name: "Добавить товар", input: "Добавить товар в корзину", expected: "Добавится товар в корзину", resultImage: "/public/thirdWeek/test6.png" },
-    { name: "История заказов", input: "Посмотреть историю заказов", expected: "Покажется история заказов", resultImage: "/public/thirdWeek/test7.png" },
-    { name: "Вход в панель администратора", input: "Войти в панель администратора", expected: "Откроется панель администратор", resultImage: "/public/thirdWeek/test8.png" },
-    { name: "Просмотр всех пользователей", input: "Открыть список пользователей", expected: "Покажется список пользователей", resultImage: "/public/thirdWeek/test9.png" },
-    { name: "Просмотр всех товаров", input: "Открыть список товаров", expected: "Покажется список товаров", resultImage: "/public/thirdWeek/test10.png" },
-    { name: "Просмотр всех заказов", input: "Открыть список заказов", expected: "Покажется список заказов", resultImage: "/public/thirdWeek/test11.png" },
-    { name: "Удаление клиента", input: "Нажатие на кнопку удаление клиента", expected: "Выйдет окно о повторном предупреждении", resultImage: "/public/thirdWeek/test12.png" },
+    { name: "Создать товар", input: "Ввести данные о товаре", expected: "Запись о товаре добавлена", resultImage: "/public/thirdWeek/test5.png" },
+    { name: "Проверка покупки товара", input: "Дождаться покупки товара", expected: "Уведомление о покупке", resultImage: "/public/thirdWeek/test6.png" },
+    { name: "Кнопка 'Рейтинг пользователей'", input: "Нажатая кнопка 'Рейтинг пользователей'", expected: "Переключение на вкладку 'Рейтинг пользователей'", resultImage: "/public/thirdWeek/test7.png" },
+    { name: "Кнопка 'История продаж'", input: "Нажатая кнопка 'История продаж'", expected: "Переключение на вкладку 'История продаж'", resultImage: "/public/thirdWeek/test8.png" },
+    { name: "Войти в систему под администратором", input: "Данные от аккаунта администратора", expected: "Успешный вход в аккаунт администратора", resultImage: "/public/thirdWeek/test9.png" },
+    { name: "Проверка удаления пользователя администратором", input: "Нажать на красную кнопку в колонке 'действия'", expected: "Вывод всплывающего окна с подтверждением. После подтверждения - удаление пользователя", resultImage: "/public/thirdWeek/test10.png" },
+    { name: "Кнопка 'Комплектующие'", input: "Нажатая кнопка 'Комплектующие'", expected: "Переключение на вкладку 'Комплектующие'", resultImage: "/public/thirdWeek/test11.png" },
+    { name: "Проверка удаления комплектующего администратором", input: "Нажать на красную кнопку в колонке 'действия'", expected: "Вывод всплывающего окна с подтверждением. После подтверждения - удаление комплектующего", resultImage: "/public/thirdWeek/test12.png" },
+    { name: "Кнопка 'Продажи'", input: "Нажатая кнопка 'Продажи'", expected: "Переключение на вкладку 'Продажи'", resultImage: "/public/thirdWeek/test13.png" },
+    { name: "Проверка удаления продажи администратором", input: "Нажать на красную кнопку в колонке 'действия'", expected: "Вывод всплывающего окна с подтверждением. После подтверждения - удаление продажи", resultImage: "/public/thirdWeek/test14.png" },
+    { name: "Выход с аккаунта", input: "Нажатая кнопка 'Выйти'", expected: "Переключение на экран авторизации", resultImage: "/public/thirdWeek/test15.png" },
   ];
 
   return (
