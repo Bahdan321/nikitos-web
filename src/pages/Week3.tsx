@@ -8,7 +8,7 @@ const Week3 = () => {
   const mobileAppTask = {
     title: "Мобильное приложение",
     description: "Разработка мобильного приложения",
-    githubLink: "",
+    githubLink: "https://github.com/fdfdfdfdfddf/PraktikaAIS",
     screenshots: ["/public/thirdWeek/1.jpeg", "/public/thirdWeek/2.jpeg", "/public/thirdWeek/3.jpeg", "/public/thirdWeek/4.jpeg", "/public/thirdWeek/5.jpeg", "/public/thirdWeek/6.jpeg", "/public/thirdWeek/7.jpeg", "/public/thirdWeek/8.jpeg", "/public/thirdWeek/9.jpeg", "/public/thirdWeek/10.jpeg", "/public/thirdWeek/11.jpeg", "/public/thirdWeek/12.jpeg", "/public/thirdWeek/13.jpeg", "/public/thirdWeek/14.jpeg", "/public/thirdWeek/15.jpeg", "/public/thirdWeek/16.jpeg"],
   };
 
